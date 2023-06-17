@@ -3,9 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mt-3.mb-4(data-aos="fade-left") A continuación, se describe el tema principal del Componente Formativo CF18 Gestión del mantenimiento de productos electrónicos, por medio de la descripción de la función del mantenimiento, la cual es esencial para garantizar el rendimiento óptimo y la vida útil de los equipos electrónicos. Para llevar a cabo esta tarea, se requiere una gestión efectiva de los recursos, incluyendo la calidad del mantenimiento, la gestión de la información y el manejo del cambio. También es importante documentar adecuadamente el mantenimiento, incluyendo manuales de usuario y del fabricante, hojas de vida de equipos y órdenes de servicio. Además, es fundamental considerar los costos y presupuestos de mantenimiento, así como la gestión de repuestos para garantizar una ejecución eficiente de la función de mantenimiento.
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

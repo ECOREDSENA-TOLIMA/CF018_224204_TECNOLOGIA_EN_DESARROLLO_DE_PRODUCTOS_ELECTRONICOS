@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Gestión del mantenimiento de productos electrónicos',
+    descripcionCurso:
+      'En este componente formativo, se tratan conceptos relacionados con el mantenimiento y posterior documentación de productos electrónicos. Se tratan temas como los tipos de mantenimiento y los costos asociados, así como la gestión de la hoja de vida del equipo. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -31,28 +22,72 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La función de mantenimiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipos de mantenimiento',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Costos y presupuesto de mantenimiento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Listado de repuestos',
+            hash: 't_1_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Gestión de los recursos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Calidad del mantenimiento',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Gestión de la información',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Gestión del cambio',
+            hash: 't_2_3',
           },
         ],
       },
 
       {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Documentación del mantenimiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Manual de usuario y del fabricante',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Hoja de vida del equipo',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Órdenes de servicio',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
