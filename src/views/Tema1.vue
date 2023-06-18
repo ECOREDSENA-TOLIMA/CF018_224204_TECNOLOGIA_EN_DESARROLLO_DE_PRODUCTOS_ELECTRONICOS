@@ -40,7 +40,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col.lg-12.col-lg-6.justify-content-center.align-items-center.mt-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/2.png', alt='alt')
+          img(src='@/assets/curso/tema1/2.svg', alt='alt')
 
     p.mt-3.mb-3(data-aos="fade-left") Las empresas invierten grandes recursos en el mantenimiento de maquinaria, porque la compensación puede ser grande. Una parada de una máquina en una línea productiva, por varios días, puede significar pérdidas enormes, las cuales se pueden evitar con un buen plan de mantenimiento.
 
@@ -63,7 +63,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/3.svg', alt='Texto que describa la imagen')
             
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -74,7 +74,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/4.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
     
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -85,7 +85,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/5.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -96,7 +96,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -107,7 +107,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -118,7 +118,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/8.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/8.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -129,7 +129,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -140,7 +140,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/10.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/10.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -151,7 +151,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto
@@ -162,7 +162,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-md-10
           figure
-            img(src='@/assets/curso/tema1/12.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
     
     p.mt-3.mb-3(data-aos="fade-left") Para establecer un plan de mantenimiento, son necesarias una serie de tareas, con el fin de cumplir unos objetivos de disponibilidad, confiabilidad y costos. Todos ellos con un objetivo bien claro: aumentar al máximo la vida útil de los equipos. Se necesitan implementar unos protocolos de mantenimiento por tipo de equipo; es posible que, dependiendo de la línea del mismo, se necesiten planes de mantenimiento diferentes; para esto, es necesario tener en cuenta las siguientes recomendaciones.
 
@@ -263,104 +263,104 @@
 
     p.mt-2.mb-3(data-aos="fade-left") Y el análisis de los posibles fallos de una línea de producción, según esta metodología, aporta una serie de resultados, como también una serie de acciones que llevan a evitarlos. A continuación, se presentan algunos de ellos.
 
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-md-8 
+        LineaTiempoD.color-primario.mb-5
+          .row.justify-content-center.align-items-center(numero="1" titulo="Resultados")
+            .col-md-12.mb-4.mb-md-0
+              p.text-small El análisis de los posibles fallos de una línea de producción, según  esta metodología, aporta una serie de resultados, dentro de ellos, estánich it can make sense to write user style sheet rules, in my opionion.
+              ul.lista-ul.text-small
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Mejora el aprendizaje del funcionamiento de los equipos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Analiza todas las posibilidades de falla de un equipo y se pueden implementar mecanismos que tratan de evitarlos, ya sean producidos por el funcionamiento propio del equipo o por acciones de los operadores.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Se pueden implementar una serie de acciones que permiten garantizar una alta disponibilidad del equipo.
+            
+          .row.justify-content-center.align-items-center(numero="2" titulo="Acciones")
+            .col-md-12.mb-4.mb-md-0
+              p.text-small Se pueden implementar una serie de acciones que lleven  a evitar los fallos:
+              ul.lista-ul.text-small
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Determinar tareas de mantenimiento que eviten o reduzcan los fallos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Mejorar y modificar montajes de los equipos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Reducir los efectos de los fallos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Definir el stock de repuestos que es necesario para los equipos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Procedimientos operativos.
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | Planes de capacitación. 
     
-    .row.justify-content-center.align-items-center
-      .col-sm-8
-        TabsA.color-primario.mb-5
-          .tarjeta.color-primario--borde.p-4.text.small(titulo="1")
-            h4 Resultados
-            p El análisis de los posibles fallos de una línea de producción, según  esta metodología, aporta una serie de resultados, dentro de ellos, estánich it can make sense to write user style sheet rules, in my opionion.
-            ul.lista-ul
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Mejora el aprendizaje del funcionamiento de los equipos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Analiza todas las posibilidades de falla de un equipo y se pueden implementar mecanismos que tratan de evitarlos, ya sean producidos por el funcionamiento propio del equipo o por acciones de los operadores.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Se pueden implementar una serie de acciones que permiten garantizar una alta disponibilidad del equipo.
-          .tarjeta.color-primario--borde.p-4.text.small(titulo="2")
-            h4 Acciones
-            p Se pueden implementar una serie de acciones que lleven  a evitar los fallos:
-            ul.lista-ul
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Determinar tareas de mantenimiento que eviten o reduzcan los fallos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Mejorar y modificar montajes de los equipos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Reducir los efectos de los fallos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Definir el stock de repuestos que es necesario para los equipos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Procedimientos operativos.
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | Planes de capacitación. 
-
-          .tarjeta.color-primario--borde.p-4.text.small(titulo="3")
-            h4 RCM
-            p Está basado en descubrir todos los posibles fallos potenciales que puede tener un equipo, identificar las causas que los provocan e  implementar una serie de medidas preventivas para evitar que esos fallos se produzcan. Para  poner en marcha este proceso, es necesario plantear una serie de preguntas y estas deben quedar resueltas:
-            ul.lista-ul
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Cómo es el comportamiento de cada equipo?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Cuáles son los estándares de funcionamiento en cada sistema?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Qué causa cada fallo?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Qué consecuencias trae cada fallo?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Qué parámetros medidos alertan de un fallo?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Cómo pueden evitarse estos fallos?
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | ¿Qué debe hacerse si no se puede evitar un fallo?
-
+          .row.justify-content-center.align-items-center(numero="3" titulo="RCM")
+            .col-md-12.mb-4.mb-md-0
+              p.text-small Está basado en descubrir todos los posibles fallos potenciales que puede tener un equipo, identificar las causas que los provocan e  implementar una serie de medidas preventivas para evitar que esos fallos se produzcan. Para  poner en marcha este proceso, es necesario plantear una serie de preguntas y estas deben quedar resueltas:
+              ul.lista-ul
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Cómo es el comportamiento de cada equipo?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Cuáles son los estándares de funcionamiento en cada sistema?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Qué causa cada fallo?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Qué consecuencias trae cada fallo?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Qué parámetros medidos alertan de un fallo?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Cómo pueden evitarse estos fallos?
+                li
+                  ul
+                    li 
+                      i.lista-ul__vineta
+                      | ¿Qué debe hacerse si no se puede evitar un fallo? 
+          
     p.mt-2.mb-3(data-aos="fade-left") La respuesta a las anteriores preguntas conduce a identificar los fallos potenciales, las causas y las medidas preventivas que tendrán que adoptarse.
 
     .row
@@ -578,8 +578,6 @@
               img(src='@/assets/curso/tema1/32.svg', alt='Texto que describa la imagen')
               figcaption Repuestos de impresora láser
 
-
-
     p.mt-2.mb-3(data-aos="fade-left") Una gestión óptima de los componentes electrónicos que se deben mantener en inventario es clave para el éxito de cualquier desarrollo de un plan de mantenimiento. Una mala planeación en la adquisición de elementos de repuesto y piezas puede llevar a un almacenamiento con altos costos y con tiempos de inactividad de equipos que pueden resultar costosos.
     
     .row
@@ -589,9 +587,6 @@
             .col-sm-12
               p.px-3.pt-1.pb-2(data-aos="fade-left") Estos elementos deben estar disponibles cuando se necesiten, pero tampoco se deben adquirir de forma desmedida, aquí es donde resulta necesario apoyarse en los softwares para gestión del mantenimiento.
 
-    
-
-      
 </template>
 
 <script>
