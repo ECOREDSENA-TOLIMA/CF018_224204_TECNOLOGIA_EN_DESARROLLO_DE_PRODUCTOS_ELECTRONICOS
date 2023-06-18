@@ -324,7 +324,7 @@
           .row.justify-content-center.align-items-center(numero="3" titulo="RCM")
             .col-md-12.mb-4.mb-md-0
               p.text-small Está basado en descubrir todos los posibles fallos potenciales que puede tener un equipo, identificar las causas que los provocan e  implementar una serie de medidas preventivas para evitar que esos fallos se produzcan. Para  poner en marcha este proceso, es necesario plantear una serie de preguntas y estas deben quedar resueltas:
-              ul.lista-ul
+              ul.lista-ul.text-small
                 li
                   ul
                     li 
