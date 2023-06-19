@@ -132,32 +132,96 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Gestión de los recursos',
+      referencia:
+        'ICONTEC Internacional. (2015). Sistemas de gestión de la calidad. Requisitos (NTC-ISO 9001). ',
+      tipo: 'Documento técnico',
+      link: 'https://www.agencomex.com/pdf/ISO-9001-2015.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Documentación del mantenimiento',
+      referencia:
+        'ICONTEC. (2002). Directrices para la documentación de sistemas de gestión de la calidad (GTC-ISO/TR 10013). ',
+      tipo: 'Documento técnico',
+      link:
+        'https://www.academia.edu/25172134/GTC_ISO_10013_DOCUMENTACION_DE_PROCESOS_Y_PROCEDIMIENTOS',
+    },
+    {
+      tema: 'Manual de usuario y del fabricante',
+      referencia:
+        'Panasonic. (2011). Manual de Servicio Televisor de LED/LCD. ',
+      tipo: 'Documento técnico',
+      link:
+        'http://www.csportal.panasonic-la.com/descargaspla/PANAMEX/TELEVISION//LCD%20TV//LED-TV/TC-L32X35X/DOCUMENTO/MANUAL%20DE%20SERVICIO//TC-L32X35X-L-M.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Diagnosticar</em>',
+      significado:
+        'recoger y analizar datos para evaluar problemas de diversa naturaleza. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Fiable</em>',
+      significado:
+        'que ofrece seguridad o buenos resultados. (Real Academia Española, 2020)',
+    },
+    {
+      termino: '<em>Láser</em>',
+      significado:
+        'dispositivo electrónico que, basado en una emisión inducida, amplifica de manera extraordinaria un haz de luz monocromático y coherente. (Real Academia Española, 2020)',
+    },
+    {
+      termino: '<em>Proactivo</em>',
+      significado:
+        'que toma activamente el control y decide qué hacer en cada momento, anticipándose a los acontecimientos. (Real Academia Española, 2020)',
+    },
+    {
+      termino: '<em>Redundancia</em>',
+      significado:
+        'cierta repetición de la información contenida en un mensaje, que permite, a pesar de la pérdida de una parte de este, reconstruir su contenido. (Real Academia Española, 2020)',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Epson. (s. f.). Manual de servicio SEIJ07-004.',
+      link:
+        'https://www.manualslib.com/manual/979165/Epson-Stylus-Photo-R280.html?page=4#manual',
+    },
+    {
+      referencia:
+        'ICONTEC. (2002). Directrices para la documentación de sistemas de gestión de la calidad (GTC-ISO/TR 10013).',
+      link:
+        'https://www.academia.edu/25172134/GTC_ISO_10013_DOCUMENTACION_DE_PROCESOS_Y_PROCEDIMIENTOS',
+    },
+    {
+      referencia:
+        'IHMC. (2011). Recursos para tipos de investigación. IHMC Public Camp.',
+      link:
+        'https://cursa.ihmc.us/rid=1RKYS236P-15PFG45-2ZZ5/Recursos%20para%20TIPOS%20DE%20INVESTIGACI%C3%93N',
+    },
+    {
+      referencia:
+        'KMPG. (s. f.) Gestión del cambio. Resultados sostenibles. Resultados medibles.',
+      link:
+        'https://home.kpmg/co/es/home/services/advisory/management-consulting/corporate-services/capital-humano-y-cambio-organizacional/gestion-del-cambio.html',
+    },
+    {
+      referencia:
+        'Real Academia Española. (s. f.). Redundancia. Diccionario de la lengua española.',
+      link: 'https://dle.rae.es/redundancia',
+    },
+    {
+      referencia:
+        'Vishay. (2017). Power Modules, Passivated Assembled Circuit Elements, 40 A. Datasheet Q.',
+      link:
+        'https://www.datasheetq.com/datasheet-download/546974/1/Vishay/VS-P400',
+    },
+    {
+      referencia:
+        'Welch, J. (1995). When the rate of change outside exceeds the rate of change inside, the end is in sight. Words and Quotes.',
+      link:
+        'https://www.wordsandquotes.com/quote/when-the-rate-of-change-outside-exceeds-the-rate-jack-welch-8440',
     },
   ],
   creditos: [
@@ -170,7 +234,7 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
           centro: 'Nombre centro de formación',
         },
@@ -180,9 +244,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gewin Alfonso Fernández Cáceres',
+          cargo: 'Experto Temático',
+          centro: '"Regional Atlántico Centro Nacional Colombo Alemán."',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora y Evaluadora Instruccional',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro:
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de Estilo',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Qiñonez',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Distrito Capital Centro de Diseño y Metrología.',
         },
       ],
     },
@@ -190,19 +287,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Sebastian Trujillo Afanador',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Cristian Mauricio Otálora Clavijo',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -210,14 +322,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
