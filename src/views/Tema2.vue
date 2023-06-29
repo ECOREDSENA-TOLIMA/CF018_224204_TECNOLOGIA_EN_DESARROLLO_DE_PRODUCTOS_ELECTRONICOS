@@ -66,7 +66,7 @@
         .cajon.color-primario.pt-4.px-4.pb-0.caja_flotante_azul
           .row
             .col-sm-12
-              p.px-3.pt-1.pb-2 A cada departamento dependiente del jefe le son asignadas las tareas de acuerdo con el plan de mantenimiento. Existen algunos casos donde son asignadas una serie de responsabilidades tendientes a mejorar el plan de mantenimiento, como la implementación de cargos para introducir datos en el software en el que se registra la actividad en el departamento.
+              p.px-3.pt-1.pb-2 A cada departamento dependiente del jefe le son asignadas las tareas de acuerdo con el plan de mantenimiento. Existen algunos casos donde son asignadas una serie de responsabilidades tendientes a mejorar el plan de mantenimiento, como la implementación de cargos para introducir datos en el <em>software</em> en el que se registra la actividad en el departamento.
 
     p.mt-2.mb-3(data-aos="fade-left") Para el caso de la gestión electrónica, es una actividad secundaria, pero de mucha importancia en una empresa; si bien la responsabilidad directa recae sobre el jefe de mantenimiento, es el jefe electrónico el encargado de administrar los recursos para su área. Este cargo debe ser de un profesional en ingeniería electrónica, eléctrica o afines; debe definir cuántos técnicos necesita para cumplir sus tareas, pero esos requerimientos deben ser escalados al jefe de mantenimiento y este, a su vez, al personal de recursos humanos.
     
@@ -88,7 +88,7 @@
       h2 2.1 Calidad del mantenimiento
 
     p.mt-2.mb-3(data-aos="fade-left") Se enfoca en lograr que los equipos no presenten ninguna falla, y si sucede, resolverla en el menor tiempo posible. La calidad se centra en el control de los equipos, en los operadores y los repuestos necesarios, eliminando cualquier aspecto que pueda provocar una falla.
-    p.mt-2.mb-3(data-aos="fade-left") Para tener una buena calidad del mantenimiento, deben darse ciertas condiciones. Se hace necesario recurrir al TPM (Total Productive Maintenance, o Mantenimiento Productivo Total, en español). Esta estrategia busca, además, tener cero accidentes; es muy ambiciosa y está centrada en 8 pilares.
+    p.mt-2.mb-3(data-aos="fade-left") Para tener una buena calidad del mantenimiento, deben darse ciertas condiciones. Se hace necesario recurrir al TPM (<em>Total Productive Maintenance</em>, o Mantenimiento Productivo Total, en español). Esta estrategia busca, además, tener cero accidentes; es muy ambiciosa y está centrada en 8 pilares.
 
     
     .row.justify-content-center.align-items-center
@@ -150,7 +150,7 @@
         .cajon.color-primario.pt-4.px-4.pb-0.caja_flotante_azul
           .row
             .col-sm-12
-              p.px-3.pt-1.pb-2 Es necesario implementar un software de gestión del mantenimiento para tener éxito en la implementación de un sistema de calidad.
+              p.px-3.pt-1.pb-2 Es necesario implementar un <em>software</em> de gestión del mantenimiento para tener éxito en la implementación de un sistema de calidad.
     separador          
     #t_2_2.titulo-segundo.mt-2.color-acento-contenido
       h2 2.2 Gestión de la información

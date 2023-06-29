@@ -54,115 +54,165 @@
       .titulo-sexto.color-acento-contenido.mb-3.offset-lg-2(data-aos="fade-left")
         p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Tipos de mantenimiento</i>
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
-          span Tipo mantenimiento 01
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal1")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/3.svg', alt='Texto que describa la imagen')
-            
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
-          span Tipo mantenimiento 02
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal2")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/33.svg', alt='Texto que describa la imagen')
+          
+
+      .tarjeta.color-secundario.p-3(x="15.5%" y="61%" numero="X")
+        .h5.mb-2 Mantenimiento correctivo
+        p Se trata de un  mantenimiento no planificado, originado por una falla de los elementos que conforman el equipo, la cual puede ser el resultado de la falta de supervisión del rendimiento del equipo, dando origen a un alto de la productividad si no se cuenta con sistemas redundantes. 
+        p Casi siempre, genera caos, ya que, al proceder a repararlo, siempre es de emergencia y requiere del desarme parcial o total. 
+
+      .tarjeta.color-secundario.p-3(x="7%" y="86%" numero="X")
+        .h5.mb-2 Mantenimiento Correctivo - Inmediato
+        p Este se da cuando se cuenta con lo necesario para su reparación.
+
+      .tarjeta.color-secundario.p-3(x="24%" y="86%" numero="X")
+        .h5.mb-2 Mantenimiento Correctivo - Diferido
+        p Sucede cuando se requiere de la compra de repuestos o importación de algunos elementos.
+
+      .tarjeta.color-secundario.p-3(x="58.4%" y="61%" numero="X")
+        .h5.mb-2 Mantenimiento preventivo
+        p Este tipo de mantenimiento está destinado a evitar que sucedan fallas que lleven al correctivo. Se trata de un plan para anticiparse a los problemas por el uso continuo. Son una serie de acciones, entre ellas, la revisión permanente, para poder evitar que con el tiempo y el uso se presenten desgastes de componentes y terminen llevando al equipo a una falla inminente.
+        p Entre las señales que se deben tener en cuenta para la realización de este tipo de mantenimiento, se presentan las siguientes:
+      
+        p - Vibraciones.
+        p - Sonidos poco comunes.
+        p - Temperatura fuera de parámetros.
+        p - Niveles de magnitudes eléctricas fuera de parámetros normales.
+
+      .tarjeta.color-secundario.p-3(x="41.5%" y="86%" numero="X")
+        .h5.mb-2 Mantenimiento preventivo - Programado
+        p Con un buen plan de mantenimiento predictivo, se puede asegurar ahorro en las reparaciones graves de los equipos y se pueden evitar las complicaciones como consecuencia de una falla grave. A este tipo de mantenimiento se le conoce como mantenimiento preventivo programado.
+
+      .tarjeta.color-secundario.p-3(x="58.5%" y="86%" numero="X")
+        .h5.mb-2 Mantenimiento preventivo - Predictivo
+        p Busca anticipar fallos causados por elementos que están al final de su vida útil, tal es el caso de los toners de impresoras, que se puede determinar con buena precisión cuándo se van a agotar y, por tanto, se puede tener un stock y realizar el cambio antes de que se agote y se genere un paro innecesario en una línea.
     
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal3 = true")
-          span Tipo mantenimiento 03
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal3")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/5.svg', alt='Texto que describa la imagen')
+      .tarjeta.color-secundario.p-3(x="75.8%" y="85.6%" numero="X")
+        .h5.mb-2 Mantenimiento preventivo – De oportunidad
+        p Este aprovecha las paradas o periodos de inactividad de los equipos para realizar tareas de mantenimiento. Se hacen revisiones especiales, si es necesario, algunas reparaciones, para evitar paros en el futuro.
+    
+      .tarjeta.color-secundario.p-3(x="75.4%" y="61%" numero="X")
+        .h5.mb-2 Mantenimiento proactivo
+        p Existe otra definición para  mantenimiento y viene a ser una mezcla del preventivo y el correctivo. Este se denomina Mantenimiento proactivo, pues se especializa en detectar la raíz de fallas o averías que esté presentando el equipo de manera recurrente para solucionarlas de forma definitiva. Por lo tanto, este tipo de mantenimiento no ataca los efectos, sino las causas reales de los problemas presentados. Es necesario un buen diagnóstico para poder atacar la raíz del problema.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
-          span Tipo mantenimiento 04
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal4")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
+      .tarjeta.color-secundario.p-3(x="92.6%" y="61%" numero="X")
+        .h5.mb-2 Mantenimiento evolutivo
+        p Las nuevas tecnologías trajeron consigo nuevas definiciones para los tipos de mantenimiento, así es como surge el Mantenimiento evolutivo, el cual no tiene como finalidad la corrección de fallas; se hace para realizar una actualización de los componentes o módulos que tienen versiones mejoradas en el mercado. Este tipo de mantenimiento es de gran importancia, sobre todo porque la tecnología evoluciona de manera constante, lo que trae como consecuencia que los dispositivos, sobre todo los basados en sistemas de cómputo, queden obsoletos muy rápidamente.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal5 = true")
-          span Tipo mantenimiento 05
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal5")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal6 = true")
-          span Tipo mantenimiento 06
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal6")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/8.svg', alt='Texto que describa la imagen')
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+    //-       span Tipo mantenimiento 01
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal1")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/3.svg', alt='Texto que describa la imagen')
+            
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
+    //-       span Tipo mantenimiento 02
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal2")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
+    
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal3 = true")
+    //-       span Tipo mantenimiento 03
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal3")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/5.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal7 = true")
-          span Tipo mantenimiento 07
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal7")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
+    //-       span Tipo mantenimiento 04
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal4")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal8 = true")
-          span Tipo mantenimiento 08
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal8")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/10.svg', alt='Texto que describa la imagen')
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal5 = true")
+    //-       span Tipo mantenimiento 05
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal5")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal9 = true")
-          span Tipo mantenimiento 09
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal9")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal6 = true")
+    //-       span Tipo mantenimiento 06
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal6")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/8.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        a.boton.color-acento-contenido.indicador__container(@click="modal10 = true")
-          span Tipo mantenimiento 10
-          .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal10")
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-10
-          figure
-            img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal7 = true")
+    //-       span Tipo mantenimiento 07
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal7")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
+
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal8 = true")
+    //-       span Tipo mantenimiento 08
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal8")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/10.svg', alt='Texto que describa la imagen')
+
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal9 = true")
+    //-       span Tipo mantenimiento 09
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal9")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
+
+    //- .row.justify-content-center.align-items-center.mb-4
+    //-   .col-auto
+    //-     a.boton.color-acento-contenido.indicador__container(@click="modal10 = true")
+    //-       span Tipo mantenimiento 10
+    //-       .indicador--click(v-if="mostrarIndicador")
+    //- ModalA(:abrir-modal.sync="modal10")
+    //-   .row.justify-content-center.align-items-center.mb-4
+    //-     .col-md-10
+    //-       figure
+    //-         img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
     
     p.mt-3.mb-3(data-aos="fade-left") Para establecer un plan de mantenimiento, son necesarias una serie de tareas, con el fin de cumplir unos objetivos de disponibilidad, confiabilidad y costos. Todos ellos con un objetivo bien claro: aumentar al máximo la vida útil de los equipos. Se necesitan implementar unos protocolos de mantenimiento por tipo de equipo; es posible que, dependiendo de la línea del mismo, se necesiten planes de mantenimiento diferentes; para esto, es necesario tener en cuenta las siguientes recomendaciones.
 
@@ -268,7 +318,7 @@
         LineaTiempoD.color-primario.mb-5
           .row.justify-content-center.align-items-center(numero="1" titulo="Resultados")
             .col-md-12.mb-4.mb-md-0
-              p.text-small El análisis de los posibles fallos de una línea de producción, según  esta metodología, aporta una serie de resultados, dentro de ellos, estánich it can make sense to write user style sheet rules, in my opionion.
+              p.text-small El análisis de los posibles fallos de una línea de producción, según  esta metodología, aporta una serie de resultados, dentro de ellos, están:
               ul.lista-ul.text-small
                 li
                   ul
@@ -395,7 +445,7 @@
 
     .row
       .titulo-sexto.color-acento-contenido.mb-3.offset-lg-2.mt-3(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Pasos para establecer un plan de Mantenimiento</i>
+        p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Pasos para establecer un plan de mantenimiento</i>
     
     .row.justify-content-center.mb-4.mt-3
       .col-md-12.px-5
@@ -438,7 +488,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/27.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.pt-1.pb-3.mb-3 Este método se basa en la estadística y puede determinar, en buen nivel, el stock de partes, repuestos y material de consumo requeridos para que los equipos cumplan con su función dentro de los niveles deseables .
+            p.pt-1.pb-3.mb-3 Este método se basa en la estadística y puede determinar, en buen nivel, el stock de partes, repuestos y material de consumo requeridos para que los equipos cumplan con su función dentro de los niveles deseables.
             br
             br
             br
@@ -467,21 +517,21 @@
     p.mt-2.mb-3(data-aos="fade-left") Existen algunas metodologías complementarias que ayudan en la gestión de los listados de partes disponibles en el inventario, algunas de ellas son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row.justify-content-center(titulo="Análisis ABC")
-        .col-md-12.mb-4.mb-md-0.offset-lg-1
+      .row.justify-content-center.align.items.center(titulo="Análisis ABC")
+        .col-md-12.mb-4.mb-md-0
           p Este método categoriza el inventario concentrando esfuerzos y recursos en los artículos que son más importantes para los equipos; está basado en la observación empírica y determina que una pequeña fracción de artículos representa una parte importante de la empresa.
       
       .row.justify-content-center(titulo="RCS")
-        .col-md-12.mb-4.mb-md-0.offset-lg-1
-          h4 RCS (Reliability Centred Spares,  o Repuestos Centrados en la Confiabilidad, en español)
+        .col-md-12.mb-4.mb-md-0.align.items.center
+          h4 RCS(<em>Reliability Centred Spares</em>, o Repuestos Centrados en la Confiabilidad, en español)
           p Se determina el nivel de stock de repuestos con base en la vida útil de los mismos, estableciendo  los costos y los requisitos de los equipos y las operaciones de mantenimiento. Este método se basa directamente en la metodología del Mantenimiento Centrado en Confiabilidad (MCC).
 
       .row.justify-content-center(titulo="Método de Montecarlo")
-        .col-md-12.mb-4.mb-md-0.offset-lg-1
+        .col-md-12.mb-4.mb-md-0.align.items.center
           p Más que un método, es una simulación inventada en un casino del principado de Mónaco. Esta simulación utiliza  un método estadístico  para resolver problemas matemáticos complejos a través de la generación de variables aleatorias. Es  una técnica de muestreo. Se emplea para operar numéricamente sistemas complejos de tipo aleatorio, se combinan conceptos estadísticos con la capacidad de los sistemas de cómputo para generar números aleatorios y cálculos de manera autónoma. Se puede programar un algoritmo para generar los números aleatorios que posteriormente se utilizarán en una distribución normal y así obtener la demanda anual del producto.
       
       .row.justify-content-center(titulo="Método de niveles de máximos y mínimos")
-        .col-md-12.mb-4.mb-md-0.offset-lg-1
+        .col-md-12.mb-4.mb-md-0.align.items.center
           p Al aplicar esta técnica, se establecen niveles máximos y mínimos de inventario, fijando un periodo de revisión. La orden de pedido corresponde a la diferencia entre la Existencia Máxima calculada y las Existencias Actuales de inventario. Algunos softwares de gestión de inventarios emplean la técnica de máximos y mínimos haciendo un cálculo del punto de revisión y solicitando automáticamente las órdenes de compra correspondientes con las cantidades necesarias. Para lograr esto, se aplican las siguientes fórmulas:
           p #[em 𝐸𝑚𝑛 = 𝐶𝑚𝑛 ∗ 𝑇𝑟]
           p Donde:
@@ -505,7 +555,7 @@
           p E:  existencia actual
 
       .row.justify-content-center(titulo="Análisis ABC")
-        .col-md-12.mb-4.mb-md-0.offset-lg-1
+        .col-md-12.mb-4.mb-md-0.align.items.center
           p El modelo EOQ (Cantidad Económica de Pedido, en español)  está basado en determinar  el punto en el que los costos de pedido sean iguales a los costos de mantenimiento, para así determinar el nivel de existencia en inventario y la cantidad ideal para realizar un pedido.
           p Está basado en 3 puntos claves: 
           p 1. Que la demanda sea constante, por lo cual se conocen sus resultados con anterioridad.
@@ -585,7 +635,7 @@
         .cajon.color-primario.pt-4.px-4.pb-0.caja_flotante_azul(data-aos="fade-left")
           .row
             .col-sm-12
-              p.px-3.pt-1.pb-2(data-aos="fade-left") Estos elementos deben estar disponibles cuando se necesiten, pero tampoco se deben adquirir de forma desmedida, aquí es donde resulta necesario apoyarse en los softwares para gestión del mantenimiento.
+              p.px-3.pt-1.pb-2(data-aos="fade-left") Estos elementos deben estar disponibles cuando se necesiten, pero tampoco se deben adquirir de forma desmedida, aquí es donde resulta necesario apoyarse en los <em>softwares</em> para gestión del mantenimiento.
 
 </template>
 

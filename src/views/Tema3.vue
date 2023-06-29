@@ -15,7 +15,6 @@
         LineaTiempoD.color-primario.mb-5
           .row.justify-content-center.align-items-center(numero="1" titulo="Norma NTC ISO 9001:2015")
             .col-md-12.mb-4.mb-md-0
-              h5.text-small La norma NTC ISO 9001:2015 Sistemas de gestión de la calidad. 
               p.text-small En ella se  plantea una gestión enfocada en los procesos, asignando  funciones e identificando la relación entre los mismos por medio de las entradas y salidas.
             
           .row.justify-content-center.align-items-center(numero="2" titulo="Guía Técnica ISO/TR 10013")
@@ -118,7 +117,7 @@
       h2 3.2 Gestión de la información
 
     p.mt-2.mb-3(data-aos="fade-left") Si se reúnen todos los documentos tratados hasta aquí, se archivan sistemáticamente y se crea una etiqueta única para el equipo, entonces se tiene su hoja de vida. Esta documentación incluye los informes de instalación inicial, los manuales técnicos suministrados y los adquiridos a posteriori, todos los mantenimientos preventivos, predictivos, correctivos, fallas generales, en fin, lo ideal es que cuando se consulte la información del equipo, se pueda establecer con claridad su comportamiento durante su vida productiva.
-    p.mt-2.mb-3(data-aos="fade-left") Esta información es trascendental para la elaboración del plan de mantenimiento, es por eso que se requiere de un buen reporte en el día a día. A continuación, se presenta un ejemplo de este formato
+    p.mt-2.mb-3(data-aos="fade-left") Esta información es trascendental para la elaboración del plan de mantenimiento, es por eso que se requiere de un buen reporte en el día a día. A continuación, se presenta un ejemplo de este formato:
 
     .row
       .titulo-sexto.color-acento-contenido.mb-3.offset-lg-2.mt-3(data-aos="fade-left")
@@ -146,7 +145,7 @@
       .col-md-10.px-5
         figure
           img(src='@/assets/curso/tema3/10.svg', alt='alt')
-          figcaption La orden de servicio debe ser bien diligenciada. Debe expresar de manera clara lo que pretende hacerle al equipo y manifestar quién será el técnico encargado del procedimiento, fecha y hora programadas para la intervención. Aunque no existe un único formato, estas son informaciones básicas que debe contener; el documento puede variar aún dentro de una misma empresa, dependiendo del área de operación del equipo. Dentro del software de mantenimiento, viene incluida la sección para generar las órdenes de servicio, así como también la realimentación de estas.
+          figcaption La orden de servicio debe ser bien diligenciada. Debe expresar de manera clara lo que pretende hacerle al equipo y manifestar quién será el técnico encargado del procedimiento, fecha y hora programadas para la intervención. Aunque no existe un único formato, estas son informaciones básicas que debe contener; el documento puede variar aún dentro de una misma empresa, dependiendo del área de operación del equipo. Dentro del <em>software</em> de mantenimiento, viene incluida la sección para generar las órdenes de servicio, así como también la realimentación de estas.
     
     p.mt-2.mb-3(data-aos="fade-left") Es inevitable que los equipos envejezcan y que fallen. El mantenimiento de lo que trata es de que esas deficiencias afecten lo menos posible la producción final de la empresa. Un plan de mantenimiento, bien planeado y ejecutado, evita en gran medida la afectación por esas fallas.
 

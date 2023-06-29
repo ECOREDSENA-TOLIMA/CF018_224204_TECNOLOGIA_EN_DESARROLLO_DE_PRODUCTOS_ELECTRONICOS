@@ -157,27 +157,27 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Diagnosticar</em>',
+      termino: 'Diagnosticar',
       significado:
         'recoger y analizar datos para evaluar problemas de diversa naturaleza. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em>Fiable</em>',
+      termino: 'Fiable',
       significado:
         'que ofrece seguridad o buenos resultados. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em>Láser</em>',
+      termino: 'Láser',
       significado:
         'dispositivo electrónico que, basado en una emisión inducida, amplifica de manera extraordinaria un haz de luz monocromático y coherente. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em>Proactivo</em>',
+      termino: 'Proactivo',
       significado:
         'que toma activamente el control y decide qué hacer en cada momento, anticipándose a los acontecimientos. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em>Redundancia</em>',
+      termino: 'Redundancia',
       significado:
         'cierta repetición de la información contenida en un mensaje, que permite, a pesar de la pérdida de una parte de este, reconstruir su contenido. (Real Academia Española, 2020)',
     },
@@ -235,7 +235,7 @@ export default {
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Nombre centro de formación',
         },
       ],
@@ -303,7 +303,7 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
@@ -323,12 +323,12 @@ export default {
       autores: [
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
