@@ -89,7 +89,7 @@
 
       .tarjeta.color-secundario.p-3(x="58.5%" y="86%" numero="X")
         .h5.mb-2 Mantenimiento preventivo - Predictivo
-        p Busca anticipar fallos causados por elementos que están al final de su vida útil, tal es el caso de los toners de impresoras, que se puede determinar con buena precisión cuándo se van a agotar y, por tanto, se puede tener un stock y realizar el cambio antes de que se agote y se genere un paro innecesario en una línea.
+        p Busca anticipar fallos causados por elementos que están al final de su vida útil, tal es el caso de los toners de impresoras, que se puede determinar con buena precisión cuándo se van a agotar y, por tanto, se puede tener un #[i stock] y realizar el cambio antes de que se agote y se genere un paro innecesario en una línea.
     
       .tarjeta.color-secundario.p-3(x="75.8%" y="85.6%" numero="X")
         .h5.mb-2 Mantenimiento preventivo – De oportunidad
@@ -262,7 +262,7 @@
         .cajon.color-primario.pt-4.px-4.pb-0.caja_flotante_azul(data-aos="fade-left")
           .row
             .col-sm-12
-              p.px-3.pt-1.pb-2(data-aos="fade-lef") Otra ventaja de hacer un buen mantenimiento es que se reducen los riesgos de accidentalidad, pues equipos en mal estado son frecuentemente causal de muchos accidentes . 
+              p.px-3.pt-1.pb-2(data-aos="fade-lef") Otra ventaja de hacer un buen mantenimiento es que se reducen los riesgos de accidentalidad, pues equipos en mal estado son frecuentemente causal de muchos accidentes. 
 
     p.mt-3.mb-3(data-aos="fade-left") Adicionalmente, es necesario aclarar que, por sus características, a los equipos electrónicos no se les puede implementar un plan de mantenimiento sistemático, solo aquel que lleva a limpieza y prevención; estos equipos fallan sin avisar y se debe centrar en los factores de esas posibles deficiencias: temperatura, humedad, suciedad, vibración, fuentes de alimentación salidas de parámetros, puesta a tierra, entre otros.
         
@@ -311,7 +311,7 @@
         .p-4
           p También se destacan otros objetivos igualmente importantes: aumentar la disponibilidad, es decir, la proporción del tiempo que los equipos están en disposición y disminuir, al mismo tiempo, los costos por mantenimiento.
 
-    p.mt-2.mb-3(data-aos="fade-left") Y el análisis de los posibles fallos de una línea de producción, según esta metodología, aporta una serie de resultados, como también una serie de acciones que llevan a evitarlos. A continuación, se presentan algunos de ellos.
+    p.mt-2.mb-3(data-aos="fade-left") El análisis de los posibles fallos de una línea de producción, según esta metodología, aporta una serie de resultados, como también una serie de acciones que llevan a evitarlos. A continuación, se presentan algunos de ellos.
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-md-8 
@@ -359,7 +359,7 @@
                   ul
                     li 
                       i.lista-ul__vineta
-                      | Definir el stock de repuestos que es necesario para los equipos.
+                      | Definir el #[i stock] de repuestos que es necesario para los equipos.
                 li
                   ul
                     li 
@@ -461,13 +461,13 @@
               figure
                 img(src='@/assets/curso/tema1/25.svg', alt='alt')
             .col-md-10.px-0
-              p.px-3(data-aos="fade-left") Siempre hay que tener en cuenta, al establecer un presupuesto de mantenimiento, los costos iniciales de implementación, aquellos que implican la compra inicial de herramientas, stock de repuestos, capacitación del personal, entre otros. Estos costos no son repetitivos, y si se vuelven a dar, es en menor cuantía, es decir, solo tendría que tenerse en cuenta la actualización y el mantenimiento de las mismas herramientas que lo requieran.
+              p.px-3(data-aos="fade-left") Siempre hay que tener en cuenta, al establecer un presupuesto de mantenimiento, los costos iniciales de implementación, aquellos que implican la compra inicial de herramientas, #[i stock] de repuestos, capacitación del personal, entre otros. Estos costos no son repetitivos, y si se vuelven a dar, es en menor cuantía, es decir, solo tendría que tenerse en cuenta la actualización y el mantenimiento de las mismas herramientas que lo requieran.
               p.px-3(data-aos="fade-left") Estos aspectos son relevantes a la hora de establecer costos anuales por mantenimiento. Si estos costos son más elevados de lo que realmente se quería, se afecta la contabilidad de la empresa y su destinación. En cambio, si están por debajo de lo que realmente se necesitaba y no se cuenta con los recursos  suficientes, existe la posibilidad de que se presenten fallas por falta de mantenimiento,  se disminuye la vida útil de los equipos, lo que, a su vez y a la larga, resulta catastrófico para las necesidades de la empresa. 
               p.px-3(data-aos="fade-left") Todo lo anterior quiere decir, en otras palabras, que se necesita de una muy buena planeación para determinar los costos de mantenimiento en cualquier empresa.
     
     separador          
     #t_1_3.titulo-segundo.mt-2.color-acento-contenido
-      h2 1.3 Costos y presupuesto de mantenimiento
+      h2 1.3 Listado de repuestos
 
     p.mt-2.mb-3(data-aos="fade-left") El listado de repuestos necesarios para ejecutar un plan de mantenimiento es una práctica que requiere de mucha atención. Frecuentemente, y con el objetivo de garantizar el cumplimiento de los planes, se cae en altas inversiones al comprar repuestos y materiales consumibles, muchas veces innecesarios, lo que lleva a la generación de altos costos operativos. Esto se hace más evidente a medida que los equipos envejecen y el mantenimiento se hace más recurrente. Esta mala práctica puede afectar, dentro de otros aspectos, los siguientes. 
 
@@ -488,7 +488,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/27.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.pt-1.pb-3.mb-3 Este método se basa en la estadística y puede determinar, en buen nivel, el stock de partes, repuestos y material de consumo requeridos para que los equipos cumplan con su función dentro de los niveles deseables.
+            p.pt-1.pb-3.mb-3 Este método se basa en la estadística y puede determinar, en buen nivel, el #[i stock] de partes, repuestos y material de consumo requeridos para que los equipos cumplan con su función dentro de los niveles deseables.
             br
             br
             br
@@ -532,7 +532,7 @@
       
       .row.justify-content-center(titulo="Método de niveles de máximos y mínimos")
         .col-md-12.mb-4.mb-md-0.align.items.center
-          p Al aplicar esta técnica, se establecen niveles máximos y mínimos de inventario, fijando un periodo de revisión. La orden de pedido corresponde a la diferencia entre la Existencia Máxima calculada y las Existencias Actuales de inventario. Algunos softwares de gestión de inventarios emplean la técnica de máximos y mínimos haciendo un cálculo del punto de revisión y solicitando automáticamente las órdenes de compra correspondientes con las cantidades necesarias. Para lograr esto, se aplican las siguientes fórmulas:
+          p Al aplicar esta técnica, se establecen niveles máximos y mínimos de inventario, fijando un periodo de revisión. La orden de pedido corresponde a la diferencia entre la Existencia Máxima calculada y las Existencias Actuales de inventario. Algunos #[i software] de gestión de inventarios emplean la técnica de máximos y mínimos haciendo un cálculo del punto de revisión y solicitando automáticamente las órdenes de compra correspondientes con las cantidades necesarias. Para lograr esto, se aplican las siguientes fórmulas:
           p #[em 𝐸𝑚𝑛 = 𝐶𝑚𝑛 ∗ 𝑇𝑟]
           p Donde:
           p Emn:  existencia mínima (inventario de seguridad).
@@ -554,7 +554,7 @@
           p CP:  cantidad de pedido
           p E:  existencia actual
 
-      .row.justify-content-center(titulo="Análisis ABC")
+      .row.justify-content-center(titulo="Método cantidad de pedido constante")
         .col-md-12.mb-4.mb-md-0.align.items.center
           p El modelo EOQ (Cantidad Económica de Pedido, en español)  está basado en determinar  el punto en el que los costos de pedido sean iguales a los costos de mantenimiento, para así determinar el nivel de existencia en inventario y la cantidad ideal para realizar un pedido.
           p Está basado en 3 puntos claves: 
@@ -635,7 +635,7 @@
         .cajon.color-primario.pt-4.px-4.pb-0.caja_flotante_azul(data-aos="fade-left")
           .row
             .col-sm-12
-              p.px-3.pt-1.pb-2(data-aos="fade-left") Estos elementos deben estar disponibles cuando se necesiten, pero tampoco se deben adquirir de forma desmedida, aquí es donde resulta necesario apoyarse en los <em>softwares</em> para gestión del mantenimiento.
+              p.px-3.pt-1.pb-2(data-aos="fade-left") Estos elementos deben estar disponibles cuando se necesiten, pero tampoco se deben adquirir de forma desmedida, aquí es donde resulta necesario apoyarse en los <em>software</em> para gestión del mantenimiento.
 
 </template>
 

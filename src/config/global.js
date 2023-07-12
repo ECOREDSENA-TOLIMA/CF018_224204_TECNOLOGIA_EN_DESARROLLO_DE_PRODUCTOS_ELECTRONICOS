@@ -189,7 +189,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Epson. (s. f.). Manual de servicio SEIJ07-004.',
+      referencia:
+        'Epson. (s. f.). Manual de servicios símbolos utilizados Epson Stylus Photo R280.',
       link:
         'https://www.manualslib.com/manual/979165/Epson-Stylus-Photo-R280.html?page=4#manual',
     },
@@ -241,7 +242,7 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },

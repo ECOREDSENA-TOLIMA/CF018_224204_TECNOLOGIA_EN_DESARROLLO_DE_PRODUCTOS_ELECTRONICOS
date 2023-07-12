@@ -54,7 +54,7 @@
 
     separador          
     #t_3_1.titulo-segundo.mt-2.color-acento-contenido
-      h2 3.1 Gestión de la información
+      h2 3.1 Manual de usuario y del fabricante
 
     p.mt-2.mb-3(data-aos="fade-left") Existen diferencias entre el manual de usuario y el manual del fabricante o manual de servicio.
     
@@ -114,7 +114,7 @@
                     p En el material complementario, encontrará un manual de servicio donde podrá apreciar las distintas instrucciones dadas por el fabricante para procedimientos de desarme de los equipos.
     separador          
     #t_3_2.titulo-segundo.mt-2.color-acento-contenido
-      h2 3.2 Gestión de la información
+      h2 3.2 Hoja de vida del equipo
 
     p.mt-2.mb-3(data-aos="fade-left") Si se reúnen todos los documentos tratados hasta aquí, se archivan sistemáticamente y se crea una etiqueta única para el equipo, entonces se tiene su hoja de vida. Esta documentación incluye los informes de instalación inicial, los manuales técnicos suministrados y los adquiridos a posteriori, todos los mantenimientos preventivos, predictivos, correctivos, fallas generales, en fin, lo ideal es que cuando se consulte la información del equipo, se pueda establecer con claridad su comportamiento durante su vida productiva.
     p.mt-2.mb-3(data-aos="fade-left") Esta información es trascendental para la elaboración del plan de mantenimiento, es por eso que se requiere de un buen reporte en el día a día. A continuación, se presenta un ejemplo de este formato:
