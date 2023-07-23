@@ -143,6 +143,22 @@
               h5 Higiene y seguridad en el trabajo
               p Uno de los objetivos de esta técnica es reducir los  accidentes de trabajo: cero accidentes, cero contaminación y cero trabajadores desmotivados y frustrados. Aquí también se busca el bienestar de todos los trabajadores.
 
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-md-3.offset-md-1
+                figure
+                  img(src='@/assets/curso/tema2/20.svg', alt='alt')
+            .col-md-8.mb-4.mb-md-0
+              h5 Formación continua
+              p Capacitación permanente, sobre todo, cuando se actualizan los equipos. Es necesaria para el conocimiento general de estos por parte del personal que los opera y los técnicos que realizan el mantenimiento. Esto ayuda a que puedan predecir las posibles fallas.
+
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-md-3.offset-md-1
+                figure
+                  img(src='@/assets/curso/tema2/21.svg', alt='alt')
+            .col-md-8.mb-4.mb-md-0
+              h5 TPM a nivel administrativo
+              p Consiste en aplicar estos mismos principios a nivel administrativo.
+
     p.mt-2.mb-3(data-aos="fade-left") Para garantizar la calidad en mantenimiento es necesario realizar mediciones y verificar que los equipos tengan cero defectos. Asimismo, se asegura que cada elemento y pieza funcione correctamente. 
     
     .row.justify-content-center.align-items-center
